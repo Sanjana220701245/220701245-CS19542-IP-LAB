@@ -1,0 +1,102 @@
+header{
+background: linear-gradient(to right, black 20%, purple 60%, black 80%);
+color: white;
+text-align: center;
+align-items: center;
+justify-content: center;
+height:95px;
+}
+.sec{
+font-size : 20px;
+letter-spacing: 4px;
+}
+h1{
+font-size : 45px;
+}
+.address{
+text-align: center;
+color: blue;
+}
+.left {
+            flex: 0.75; 
+            background-color: grey; 
+            color: black;
+            padding: 20px;
+            box-sizing: border-box;
+	    text-align: left;
+        }
+
+.right {
+            flex: 3;
+            background-color: white; 
+            color: black;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+.body{
+display : flex;
+height: 100%;
+}
+.sub-headers{
+text-align : left;
+color: purple;
+}
+
+h3{
+font-size : 23px;
+}
+
+h2{
+font-size : 21px;
+}
+
+a,a:visited{
+color: purple;
+text-decoration: none;
+}
+
+a:hover{
+color: white;
+}
+
+a:active{
+color : white;
+}
+
+.title{
+color: blue;
+}
+
+.content{
+color: #009FBD;
+font-size: 20px;
+}
+
+table{
+border-collapse: collapse;
+border: 2px solid black;
+text-align: center;
+font-weight: bold;
+table-layout: fixed;
+width:80%;
+}
+
+th,td{
+border: 2px solid black;
+padding: 8px 10px;
+background-color: grey;
+}
+.lab{
+border-collapse: collapse;
+border: 1px solid black;
+text-align: left;
+font-weight: normal;
+table-layout: auto;
+width:100%;
+th,td{
+border: 1px solid black;
+padding: 8px 10px;
+background-color: white;
+}
+}
